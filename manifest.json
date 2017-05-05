@@ -1,0 +1,41 @@
+{
+    "name" : "Right Click Search",
+    "version" : "0.1.0.0",
+    "author" : "Hicham Boushaba",
+    "browser_action" : 
+    {
+        "default_icon" : 
+        {
+            "20" : "icons/icon_20.png",
+            "40" : "icons/icon_40.png"
+        },
+        "default_title" : "Right-Click Search",
+        "default_popup" : "html/options.html"
+    },
+
+
+    "default_locale" : "en",
+    "description" : "This extension adds an entry to the right click context, enabling you to search selected text on multiple providers",
+
+    
+
+    "options_page" : "html/options.html",
+    "permissions" : 
+    [
+         "storage", "contextMenus", "background"
+    ],
+    "background" : 
+    {
+        "page" :"../html/background.html",
+        "persistent" : true
+    },
+    "icons" : {
+        "128" : "icons/icon_128.png",
+        "16" : "icons/icon_16.png",
+        "48" : "icons/icon_48.png"
+    },
+    "minimum_edge_version" : "33.14281.1000.0",
+
+    "web_accessible_resources" : ["icons/icon_48.png"]
+
+} 

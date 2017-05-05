@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Right Click Search - Options</title>
+      <link rel="shortcut icon" type="image/x-icon" href="../icons/favicon.ico" />
+      <!-- Bootstrap -->
+      <link href="../css/bootstrap.min.css" rel="stylesheet">
+      <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+      <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+      <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+      <![endif]-->
+      <link href="../css/options.css" rel="stylesheet" />
+   </head>
+   <body style="height:100%; width:600px">
+      <div class="settings-page">
+         <div class="container page">
+            <div class="row">
+               <div class="col-md-6 col-md-offset-3 col-xs-12">
+                  <h1 class="text-xs-center">Right Click Search - Options</h1>
+                  <form>
+                     <fieldset class="form-group">
+                        <label class="form-control no-border">
+                        <input  id="use_default_provider" type="checkbox" checked=""> <span class="text-body" data-i18n="settingTabEnableMouseGestureCheckbox">Use the specified provider</span>
+                        </label>
+                     </fieldset>
+                     <fieldset class="form-group">
+                        <label>Provider</label>
+                        <select class="form-control" id="provider">
+                           <option value="duckduckgo">DuckDuckGo</option>
+                           <option value="google">Google</option>
+                           <option value="bing">Bing</option>
+                           <option value="wikipedia">WikiPedia</option>
+                        </select>
+                     </fieldset>
+                  </form>
+               <div class="input-group">
+                  <button class="btn btn-lg btn-primary pull-xs-right" id="save">
+                     Update Settings
+                  </button>
+                  <form class="btn" action="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=hicham.boushaba@gmail.com&item_name=Hicham Boushaba&item_number=Development of Right Click Search&currency_code=USD" method="post">
+                     <button class="btn btn-lg btn-primary pull-xs-right" type="submit">Donate</button>
+                  </form>
+               </div>
+            <div id="status"> </div>
+         </div>
+      </div>
+      </div>
+      </div>
+      </div>
+      <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+      <script src="../js/jquery.min.js"></script>
+      <!-- Include all compiled plugins (below), or include individual files as needed -->
+      <script src="../js/bootstrap.min.js"></script>
+      <script type="text/javascript" src="../js/options.js"></script>
+   </body>
+</html>

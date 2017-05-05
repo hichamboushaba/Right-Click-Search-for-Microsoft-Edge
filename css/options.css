@@ -1,0 +1,17 @@
+html {
+    overflow-y: scroll
+}
+
+
+#wrapper{
+  margin: 0px 0px;
+  width: 300px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  max-height: 800px;
+}
+
+.no-border {
+    border: 0;
+    box-shadow: none; /* You may want to include this as bootstrap applies these styles too */
+}
