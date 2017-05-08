@@ -5,14 +5,21 @@ I developped this extension to fix this issue, it supports actually 4 providers:
 
 #### Installation:
 Publishing extensions to the Store is still restricted, I submited a request, and I'm waiting the response.
-In the meantime, you can use the extension by downloading the appx package from [here](https://github.com/hichamboushaba/Right-Click-Search-for-Microsoft-Edge/releases/latest), and then sideloading it by following these steps:
+In the meantime, you can use the extension by downloading the appx package and the certificate from [here](https://github.com/hichamboushaba/Right-Click-Search-for-Microsoft-Edge/releases/latest), and then sideloading it by following these steps:
 
   1- Enabling Sideloaded apps:
     Go to Settings>Update And Security>For Developers, and then select 'Sideload apps'
     
    ![sidload](/imgs/Sideload.PNG?raw=true)
     
-  2- Install the Extension by running the following command in Powershell as Administrator:
+  2- Install the certificate to the Trusted People store:<br/>
+  		&emsp;a- open the certificate, then click on 'Install Certificate'.<br/>
+    	&emsp;b- Select 'Local Machine' in Store Location.<br/>
+    	&emsp;c- Select 'Place certificates in the following store'.<br/>
+    	&emsp;d- Click on Browse and select 'Trusted People'.<br/>
+    	&emsp;e- Click on Next then Finish to complete the process.
+    
+  3- Install the Extension by running the following command in Powershell as Administrator:
       
       Add-AppxPackage   Path-to-Appx\Right-Click-Search.appx
 
