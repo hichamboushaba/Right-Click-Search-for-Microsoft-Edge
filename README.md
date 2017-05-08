@@ -14,7 +14,7 @@ In the meantime, you can use the extension by downloading the appx package and t
     
   2- Install the certificate to the Trusted People store:<br/>
   		&emsp;a- open the certificate, then click on 'Install Certificate'.<br/>
-    	&emsp;b- Select 'Local Machine' in Store Location.<br/>
+    	&emsp;b- Select 'Local Machine' in Store Location and click Next.<br/>
     	&emsp;c- Select 'Place certificates in the following store'.<br/>
     	&emsp;d- Click on Browse and select 'Trusted People'.<br/>
     	&emsp;e- Click on Next then Finish to complete the process.
@@ -22,6 +22,8 @@ In the meantime, you can use the extension by downloading the appx package and t
   3- Install the Extension by running the following command in Powershell as Administrator:
       
       Add-AppxPackage   Path-to-Appx\Right-Click-Search.appx
+      
+     You can also double click the package to install it if you have [App Installer](https://www.microsoft.com/en-us/store/p/app-installer/9nblggh4nns1) application installed.
 
 
 #### Screenshots:
